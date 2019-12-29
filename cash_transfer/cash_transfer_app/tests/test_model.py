@@ -5,13 +5,6 @@ import pytest
 from cash_transfer_app.models import Accounts
 
 
-def test_lock_rows():
-    """
-    Тест блокировки строк во время совершения операции
-    """
-    pass
-
-
 @pytest.mark.django_db
 def test_wrong_args():
     """
